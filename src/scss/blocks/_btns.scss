@@ -1,0 +1,45 @@
+.btn {
+  background-color: #141718;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+
+  padding: 12px 56px;
+
+  font-family: var(--font-accent);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 178%;
+  letter-spacing: -0.02em;
+
+  transition: all 0.2s ease-in;
+
+  @include mobile {
+    font-size: 14px;
+  }
+
+  &--small {
+    padding: 9px 40px;
+
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: -0.03em;
+    color: #fefefe;
+
+    @include mobile {
+      font-size: 14px;
+      padding: 6px 40px;
+    }
+  }
+
+  &--wide {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,124 @@
+// .icons-wrapper {
+//   padding: 30px 0;
+//   display: flex;
+//   column-gap: 30px;
+// }
+
+.icon {
+  fill: transparent;
+  stroke: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+.icon--percent {
+  fill: #fff;
+  width: 20px;
+  height: 18px;
+}
+
+.icon--arrow-right {
+  stroke: var(--accent);
+  width: 18px;
+  height: 18px;
+}
+
+.icon--close {
+  fill: #343839;
+  width: 11px;
+  height: 11px;
+
+  &:hover {
+    fill: #fefefe;
+    transition: all 0.2s ease-in;
+  }
+
+  @include mobile {
+    fill: #fefefe;
+  }
+}
+
+.icon--menu {
+  stroke: #141718;
+  width: 24px;
+  height: 24px;
+}
+
+.icon--search {
+  stroke: #141718;
+  @include mobile {
+    display: none;
+  }
+}
+
+.icon--user {
+  stroke: #141718;
+  @include mobile {
+    display: none;
+  }
+}
+
+.icon--shopping-bag {
+  stroke: #141718;
+}
+
+.icon--chevron-down {
+  stroke: #141718;
+  width: 18px;
+  height: 18px;
+}
+
+.icon--star {
+  fill: #343839;
+  width: 16px;
+  height: 16px;
+}
+
+.icon--heart {
+  width: 20px;
+  height: 20px;
+  fill: #6c7275;
+
+  &:hover {
+    fill: #cc1f36;
+  }
+}
+
+.icon--arrow-right-small {
+  stroke: #121212;
+}
+
+.icon--value {
+  width: 48px;
+  height: 48px;
+  stroke: #141718;
+}
+
+.icon--email {
+  width: 24px;
+  height: 24px;
+  fill: #121212;
+
+  @include mobile {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.icon--social {
+  width: 24px;
+  height: 24px;
+  stroke: #fefefe;
+}
+
+.icon--close-mobile {
+  width: 14px;
+  height: 14px;
+  fill: #6c7275;
+}
+
+.icon--search-02 {
+  width: 24px;
+  height: 24px;
+  stroke: #141718;
+}

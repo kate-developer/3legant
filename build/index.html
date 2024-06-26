@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant Store</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicons/apple-touch-icon.png"
+    />
+  </head>
+
+  <body>
+    <div class="tagline">
+  <svg class="tagline__icon icon icon--percent">
+    <use href="./img/svgsprite/sprite.symbol.svg#percent"></use>
+  </svg>
+
+  <span class="tagline__desc">30% off storewide&#160;&#8212; Limited time!</span>
+
+  <span href="#!" class="tagline__link">
+    Shop Now
+
+    <svg class="icon icon--arrow-right">
+      <use href="./img/svgsprite/sprite.symbol.svg#arrow-right"></use>
+    </svg>
+  </span>
+
+  <button class="tagline__close">
+    <svg class="icon icon--close">
+      <use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+    </svg>
+  </button>
+  <a href="#!" class="tagline__link-overlay"></a>
+</div>
+ <nav class="nav">
+  <div class="container">
+    <div class="nav__row">
+      <div class="nav__logo-menu">
+        <button class="nav__btn-mobile-menu" id="mobile-nav-btn">
+          <svg class="icon icon--menu">
+            <use href="./img/svgsprite/sprite.symbol.svg#menu"></use>
+          </svg>
+        </button>
+        <a href="#!" class="nav__logo logo">3legant<span>.</span></a>
+      </div>
+
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#!" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <button href="#!" class="nav__link">
+            Shop
+            <svg class="icon icon--chevron-down">
+              <use href="./img/svgsprite/sprite.symbol.svg#chevron-down"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="nav__item">
+          <button href="#!" class="nav__link">
+            Product
+            <svg class="icon icon--chevron-down">
+              <use href="./img/svgsprite/sprite.symbol.svg#chevron-down"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="nav__item"><a href="#!" class="nav__link">Contact Us</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button href="#!" class="nav__link-item">
+          <svg class="icon icon--search">
+            <use href="./img/svgsprite/sprite.symbol.svg#search"></use>
+          </svg>
+        </button>
+
+        <button href="#!" class="nav__link-item">
+          <svg class="icon icon--user">
+            <use href="./img/svgsprite/sprite.symbol.svg#user"></use>
+          </svg>
+        </button>
+
+        <button href="#!" class="nav__link-item">
+          <svg class="icon icon--shopping-bag">
+            <use href="./img/svgsprite/sprite.symbol.svg#shopping-bag"></use>
+          </svg>
+          <span class="nav__btn-count">2</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div class="mobile-nav">
+  <!-- Mobile nav top -->
+  <div class="mobile-nav__top">
+    <div class="mobile-nav__header">
+      <a href="#!" class="logo logo--mobile">3legant<span>.</span></a>
+      <button id="mobile-nav-close">
+        <svg class="icon icon--close-mobile">
+          <use href="./img/svgsprite/sprite.symbol.svg#close-mobile"></use>
+        </svg>
+      </button>
+    </div>
+
+    <form action="" class="mobile-nav__search">
+      <div class="mobile-nav__search-label">
+        <svg class="icon icon--search-02">
+          <use href="./img/svgsprite/sprite.symbol.svg#search-02"></use>
+        </svg>
+        <input
+          class="mobile-nav__search-input"
+          type="text"
+          placeholder="Search"
+        />
+      </div>
+    </form>
+
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item">
+        <a href="#!" class="mobile-nav__link">Home</a>
+      </li>
+      <li class="mobile-nav__item">
+        <button href="#!" class="mobile-nav__link">
+          Shop
+          <svg class="icon icon--chevron-down">
+            <use href="./img/svgsprite/sprite.symbol.svg#chevron-down"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="mobile-nav__item">
+        <button href="#!" class="mobile-nav__link">
+          Product
+          <svg class="icon icon--chevron-down">
+            <use href="./img/svgsprite/sprite.symbol.svg#chevron-down"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="#!" class="mobile-nav__link">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Mobile nav bottom -->
+  <div class="mobile-nav__bottom">
+    <div class="mobile-nav__links-bottom">
+      <a href="#!" class="mobile-nav__link-item">
+        Cart
+        <span class="mobile-nav__cart">
+          <svg class="icon icon--shopping-bag">
+            <use href="./img/svgsprite/sprite.symbol.svg#shopping-bag"></use>
+          </svg>
+          <span class="nav__btn-count nav__btn-count--mobile">2</span>
+        </span>
+      </a>
+
+      <a href="#!" class="mobile-nav__link-item">
+        Wishlist
+        <span class="mobile-nav__cart">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+          <span class="nav__btn-count nav__btn-count--mobile">2</span>
+        </span>
+      </a>
+
+      <!-- Второй варант ссылок -->
+      <!-- <ul class="mobile-nav__list">
+        <li class="mobile-nav__item mobile-nav__item--gray">
+          <a href="#!" class="mobile-nav__link mobile-nav__link--gray"
+            >Cart
+            <span href="#!" class="nav__link-item">
+              <svg class="icon icon--shopping-bag">
+                <use
+                  href="./img/svgsprite/sprite.symbol.svg#shopping-bag"
+                ></use>
+              </svg>
+              <span class="nav__btn-count nav__btn-count--mobile">2</span>
+            </span>
+          </a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--gray">
+          <a href="#!" class="mobile-nav__link mobile-nav__link--gray"
+            >Wishlist
+            <span href="#!" class="nav__link-item">
+              <svg class="icon icon--heart">
+                <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+              </svg>
+              <span class="nav__btn-count nav__btn-count--mobile">2</span>
+            </span>
+          </a>
+        </li>
+      </ul> -->
+    </div>
+
+    <button class="btn btn--wide">Sign in</button>
+
+    <div class="mobile-nav__socials">
+      <a href="#!">
+        <svg class="icon icon--instagram icon--social">
+          <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+        </svg>
+      </a>
+      <a href="#!">
+        <svg class="icon icon--facebook icon--social">
+          <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+        </svg>
+      </a>
+      <a href="#!">
+        <svg class="icon icon--youtube icon--social">
+          <use href="./img/svgsprite/sprite.symbol.svg#youtube"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-nav-fade"></div>
+
+    <section class="hero">
+  <div class="hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Listen to&#160;the <span>amazing</span> music sound.
+      </h1>
+
+      <div class="hero__desc">
+        <p>Experience music like never before</p>
+      </div>
+
+      <div class="hero__link">
+        <a href="#!" class="btn">Shopping Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="arrivals">
+  <div class="container">
+    <div class="arrivals__row">
+      <div class="arrivals__title">
+        <h2 class="headline-4">New Arrivals</h2>
+      </div>
+      <div class="arrivals__dots">
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container-right">
+    <div class="arrivals__slider">
+
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-01.jpg"
+        srcset="./img/arrivals/item-01@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</div>
+      <div class="card__price">$299.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-02.jpg"
+        srcset="./img/arrivals/item-02@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Beats Studio Pro</div>
+      <div class="card__price">$349.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-03.jpg"
+        srcset="./img/arrivals/item-03@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</div>
+      <div class="card__price">$149.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-04.jpg"
+        srcset="./img/arrivals/item-04@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</div>
+      <div class="card__price">$79.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-05.jpg"
+        srcset="./img/arrivals/item-05@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Beats Studio Pr</div>
+      <div class="card__price">$224.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-01.jpg"
+        srcset="./img/arrivals/item-01@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</div>
+      <div class="card__price">$299.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-02.jpg"
+        srcset="./img/arrivals/item-02@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Beats Studio Pro</div>
+      <div class="card__price">$349.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-03.jpg"
+        srcset="./img/arrivals/item-03@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</div>
+      <div class="card__price">$149.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-04.jpg"
+        srcset="./img/arrivals/item-04@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</div>
+      <div class="card__price">$79.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/item-05.jpg"
+        srcset="./img/arrivals/item-05@2x.jpg"
+        alt="headphone-01"
+      />
+      <div class="card__new">new</div>
+
+      <div class="card__fav">
+        <button class="btn-fav">
+          <svg class="icon icon--heart">
+            <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__raiting">
+
+        <svg class="icon icon--star">
+          <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+        </svg>
+
+      </div>
+      <div class="card__title">Beats Studio Pr</div>
+      <div class="card__price">$224.99</div>
+    </div>
+    <a href="" class="card__link"></a>
+  </article>
+</div>
+
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="collection">
+  <div class="container">
+    <div class="collection__title">
+      <h2 class="headline-4">Shop Collection</h2>
+    </div>
+    <div class="collection__grid">
+      <div class="plate plate--tall plate--collection-01">
+        <div class="plate__content">
+          <h3 class="plate__title">Headband</h3>
+          <a href="" class="plate__link"
+            >Collection
+            <svg class="icon icon--arrow-right-small">
+              <use
+                href="./img/svgsprite/sprite.symbol.svg#arrow-right-small"
+              ></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="plate plate--collection-02">
+        <div class="plate__content">
+          <h3 class="plate__title">Earbuds</h3>
+          <a href="" class="plate__link"
+            >Collection
+            <svg class="icon icon--arrow-right-small">
+              <use
+                href="./img/svgsprite/sprite.symbol.svg#arrow-right-small"
+              ></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="plate plate--collection-03">
+        <div class="plate__content">
+          <h3 class="plate__title">Accessories</h3>
+          <a href="" class="plate__link"
+            >Collection
+            <svg class="icon icon--arrow-right-small">
+              <use
+                href="./img/svgsprite/sprite.symbol.svg#arrow-right-small"
+              ></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <div class="best-seller">
+  <div class="container">
+    <div class="best-seller__title">
+      <div class="headline-4"><h2>Best Seller</h2></div>
+    </div>
+    <div class="best-seller__cards">
+      <article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-01.jpg"
+      srcset="./img/bestsellers/bs-01@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Sony&#160;&#8212; WH-1000XM5 Wireless Noise Canceling</h3>
+    <div class="card__price">$299.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-02.jpg"
+      srcset="./img/bestsellers/bs-02@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Beats Studio Pro</h3>
+    <div class="card__price">$349.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-03.jpg"
+      srcset="./img/bestsellers/bs-03@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+    <div class="card__price">$149.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-04.jpg"
+      srcset="./img/bestsellers/bs-04@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</h3>
+    <div class="card__price">$79.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-05.jpg"
+      srcset="./img/bestsellers/bs-05@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Beats Studio Pr</h3>
+    <div class="card__price">$249.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-06.jpg"
+      srcset="./img/bestsellers/bs-06@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">JBL Reflect Flow Pro+ Bluetooth Truly Wireless Sports</h3>
+    <div class="card__price">$179.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-07.jpg"
+      srcset="./img/bestsellers/bs-07@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Bose QuietComfort Headphones</h3>
+    <div class="card__price">$349.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img
+      src="./img/bestsellers/bs-08.jpg"
+      srcset="./img/bestsellers/bs-08@2x.jpg"
+      alt="headphones"
+    />
+    <div class="card__new">hot</div>
+
+    <div class="card__fav">
+      <button class="btn-fav">
+        <svg class="icon icon--heart">
+          <use href="./img/svgsprite/sprite.symbol.svg#heart"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__raiting">
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+      <svg class="icon icon--star">
+        <use href="./img/svgsprite/sprite.symbol.svg#star"></use>
+      </svg>
+
+    </div>
+    <h3 class="card__title card__title--elipsis">AKG Y600NC Wireless</h3>
+    <div class="card__price">$349.99</div>
+  </div>
+  <a href="" class="card__link"></a>
+</article>
+
+    </div>
+  </div>
+</div>
+
+    <section class="promotion">
+  <div class="promotion__container">
+    <div class="promotion__content">
+      <div class="promotion__desc">
+        <div class="promotion__tagline">
+          <p>Promotion</p>
+        </div>
+        <div class="promotion__title">
+          <h2>Hurry up! 40%&#160;OFF</h2>
+        </div>
+        <div class="promotion__text">
+          <p>Thousands of&#160;high tech are waiting for you</p>
+        </div>
+      </div>
+
+      <div class="promotion__timer">
+        <div class="promotion__expires">
+          <p>Offer expires in:</p>
+        </div>
+
+        <div class="timer">
+  <div class="timer__el">
+    <div class="timer__value" id="days"></div>
+    <div class="timer__desc">Days</div>
+  </div>
+  <div class="timer__el">
+    <div class="timer__value" id="hours"></div>
+    <div class="timer__desc">Hours</div>
+  </div>
+  <div class="timer__el">
+    <div class="timer__value" id="minutes"></div>
+    <div class="timer__desc">Minutes</div>
+  </div>
+  <div class="timer__el">
+    <div class="timer__value" id="seconds"></div>
+    <div class="timer__desc">Seconds</div>
+  </div>
+</div>
+
+      </div>
+
+      <div class="promotion-btn">
+        <a href="#!" class="btn btn--small">Shop now</a>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="values">
+  <div class="container">
+    <div class="values__grid">
+      <div class="value">
+  <div class="values__img">
+    <svg class="icon icon--value">
+      <use href="./img/svgsprite/sprite.symbol.svg#shipping"></use>
+    </svg>
+  </div>
+  <div class="values__title">
+    <h4>Free Shipping</h4>
+  </div>
+  <div class="values__desc">
+    <p>Order above $200</p>
+  </div>
+</div>
+<div class="value">
+  <div class="values__img">
+    <svg class="icon icon--value">
+      <use href="./img/svgsprite/sprite.symbol.svg#finance"></use>
+    </svg>
+  </div>
+  <div class="values__title">
+    <h4>Money-back</h4>
+  </div>
+  <div class="values__desc">
+    <p>30 days guarantee</p>
+  </div>
+</div>
+<div class="value">
+  <div class="values__img">
+    <svg class="icon icon--value">
+      <use href="./img/svgsprite/sprite.symbol.svg#lock"></use>
+    </svg>
+  </div>
+  <div class="values__title">
+    <h4>Secure Payments</h4>
+  </div>
+  <div class="values__desc">
+    <p>Secured by&#160;Stripe</p>
+  </div>
+</div>
+<div class="value">
+  <div class="values__img">
+    <svg class="icon icon--value">
+      <use href="./img/svgsprite/sprite.symbol.svg#call"></use>
+    </svg>
+  </div>
+  <div class="values__title">
+    <h4>24/7 Support</h4>
+  </div>
+  <div class="values__desc">
+    <p>Phone and Email supports</p>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="newsletter">
+  <div class="newsletter__content">
+    <div class="newsletter__heading">
+      <div class="newsletter__title headline-4">
+        <h3>Join Our Newsletter</h3>
+      </div>
+      <div class="newsletter__desc">
+        <p>Sign up&#160;for deals, new products and promotions</p>
+      </div>
+    </div>
+
+    <form action="" class="form-newsletter">
+      <svg class="icon icon--email">
+        <use href="./img/svgsprite/sprite.symbol.svg#email"></use>
+      </svg>
+      <input
+        type="text"
+        class="form-newsletter__input"
+        placeholder="Email address"
+      />
+      <button type="submit" class="form-newsletter__btn">Signup</button>
+    </form>
+  </div>
+</section>
+ <footer class="footer">
+  <div class="container">
+    <div class="footer__row footer__row-top">
+      <div class="footer__title">
+        <div class="footer__logo">3legant<span>.</span></div>
+        <div class="footer__separator"></div>
+        <div class="footer__store">
+          <a href="#!" class="footer__store-link">Headphone Store</a>
+        </div>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="footer__nav-item">
+          <a class="footer__nav-item-link" href="#!">Home</a>
+        </li>
+        <li class="footer__nav-item">
+          <a class="footer__nav-item-link" href="#!">Shop</a>
+        </li>
+        <li class="footer__nav-item">
+          <a class="footer__nav-item-link" href="#!">Product</a>
+        </li>
+        <li class="footer__nav-item">
+          <a class="footer__nav-item-link" href="#!">Blog</a>
+        </li>
+        <li class="footer__nav-item">
+          <a class="footer__nav-item-link" href="#!">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer__row footer__row--border">
+      <div class="footer__copyrights">
+        <p class="footer__copyrights-rights">
+          Copyright &#169; 2024 3legant. All rights reserved
+        </p>
+
+        <p class="footer__copyright-links">
+          <a href="#!">Privacy Policy</a>
+          <a href="#!">Terms of&#160;Use</a>
+        </p>
+      </div>
+
+      <div class="footer__socials">
+        <a href="#!">
+          <svg class="icon icon--instagram icon--social">
+            <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
+          </svg>
+        </a>
+        <a href="#!">
+          <svg class="icon icon--facebook icon--social">
+            <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+          </svg>
+        </a>
+        <a href="#!">
+          <svg class="icon icon--youtube icon--social">
+            <use href="./img/svgsprite/sprite.symbol.svg#youtube"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>

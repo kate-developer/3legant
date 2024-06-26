@@ -1,0 +1,89 @@
+.hero {
+  height: 820px;
+
+  background-color: #ffc95c;
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: image-set(
+    url("./../../img/hero/hero.jpg") 1x,
+    url("./../../img/hero/hero@2x.jpg") 2x
+  );
+
+  @include tablet {
+    height: 500px;
+  }
+
+  @include mobile {
+    height: auto;
+    padding-bottom: 390px;
+    background-image: image-set(
+      url("./../../img/hero/hero-mobile.jpg") 1x,
+      url("./../../img/hero/hero-mobile@2x.jpg") 2x
+    );
+  }
+}
+
+.hero__container {
+  height: 100%;
+  // background-color: #666;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + (var(--container-width) / 2)
+  );
+  padding-right: calc((100% - var(--container-width)) / 2);
+
+  @include tablet {
+    padding-right: var(--container-padding);
+  }
+
+  @include mobile {
+    padding: 40px var(--container-padding);
+    text-align: center;
+    justify-content: center;
+    max-width: 375px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.hero__title {
+  margin-bottom: 8px;
+
+  color: #121212;
+  font-family: var(--font-accent);
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 105%;
+  letter-spacing: -0.04em;
+
+  @include tablet {
+    font-size: 60px;
+  }
+
+  @include mobile {
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+  }
+
+  span {
+    color: #377dff;
+  }
+}
+
+.hero__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #121212;
+  margin-bottom: 28px;
+
+  @include mobile {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
