@@ -2,7 +2,7 @@ function timer() {
   // const endDate = new Date();
   // endDate.setDate(endDate.getDate() + 3); //например, 3 дня от текущей даты
 
-  const endDate = new Date("Sep 1, 2024, 23:59:59");
+  const endDate = new Date("Dec 18, 2024, 23:59:59");
 
   const daysElement = document.querySelector("#days");
   const hoursElement = document.querySelector("#hours");
